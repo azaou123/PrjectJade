@@ -6,7 +6,7 @@
             "request": "launch",
             "mainClass": "jade.Boot",
             "projectName": "HotelReservation",
-            "args": "-agents \"client:AgentClient;reception:AgentReception;paiement:AgentPaiement;notification:AgentNotification\"",
+            "args": "-agents \"simple:SimpleAgent;sender:SenderAgent; receiver:ReceiverAgent;behavior:BehaviorAgent;buyer:BuyerAgent;seller:SellerAgent;mobile:MobileAgent;taskManager:TaskManagerAgent;service:ServiceAgane;client:clientAgent\"",
             "classpath": [
                 "lib/jade.jar",
                 "src"
